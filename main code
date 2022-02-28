@@ -1,0 +1,127 @@
+#include <iostream>
+#include <limits>
+using namespace std;
+
+int main()
+{
+    int userchoice;
+    int num1;
+    int num2;
+    int answer;
+    int useranswer;
+    
+    cout << endl;
+    cout << "Welcome to Math Tutor by Ulysses Vasquez!\n\nThese are the subjects supported.\n1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select a number associated with your subject (1-5): ";
+    cin >> userchoice;
+    
+    while (userchoice != 5)
+        {
+            if (userchoice == 1)
+                {
+                    cout << "Please enter the two numbers you'd like to add: ";
+                    cin >> num1 >> num2;
+                    int answer = num1 + num2;
+
+                    cout << "   " << num1 << endl;
+                    cout<<"  +"<< num2 << endl;
+                    cout<<" -----"<< endl;
+                    cout << "What is the answer? ";
+                    cin >> useranswer;
+                    cout << endl;
+
+                        if (answer == useranswer)
+                            cout << "Your answer is correct!:)" << endl;
+                        else 
+                            cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
+
+                    cout << endl;
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select a number associated with your subject (1-5): ";
+                    cin >> userchoice;
+                } 
+            else if (userchoice == 2)
+                {
+                    cout << "Please enter the two numbers you'd like to subbtract: ";
+                    cin >> num1 >> num2;
+                    int answer = num1 - num2;
+
+                    cout << "   " << num1 << endl;
+                    cout<<"  -"<< num2 << endl;
+                    cout<<" -----"<< endl;
+
+                    cout << "What is the answer? ";
+                    cin >> useranswer;
+                    cout << endl;
+
+                        if (answer == useranswer)
+                            cout << "Your answer is correct!:)" << endl;
+                        else 
+                            cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
+
+                    cout << endl;
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select a number associated with your subject (1-5): ";
+                    cin >> userchoice;
+                }
+           else if (userchoice == 3)
+                {
+                    cout << "Please enter the two numbers you'd like to multiply: ";
+                    cin >> num1 >> num2;
+                    int answer = num1 * num2;
+
+                    cout << "   " << num1 << endl;
+                    cout<<"  *"<< num2 << endl;
+                    cout<<" -----"<< endl;
+
+                    cout << "What is the answer? ";
+                    cin >> useranswer;
+                    cout << endl;
+
+                        if (answer == useranswer)
+                            cout << "Your answer is correct!:)" << endl;
+                        else 
+                            cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
+
+                    cout << endl;
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select a number associated with your subject (1-5): ";
+                    cin >> userchoice;
+                }
+            else if (userchoice == 4)
+                {
+                    cout << "Please enter the two numbers you'd like to divide: ";
+                    cin >> num1 >> num2;
+                    int answer = num1 / num2;
+                    
+                    cout << endl;
+                    cout << num1 << "/" << num2 << endl;
+                    cout << endl;
+                    
+                    cout << "What is the answer? ";
+                    cin >> useranswer;
+                    cout << endl;
+
+                        if (answer == useranswer)
+                            cout << "Your answer is correct!:)" << endl;
+                        else 
+                            cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
+
+                    cout << endl;
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select a number associated with your subject (1-5): ";
+                    cin >> userchoice;
+                }
+            else 
+                {
+                    cout << endl;
+                    cout << "  !!Invalid input!!" << endl;
+                    cout << endl;
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select a number associated with your subject (1-5): ";
+                    cin.clear();
+                    cin.ignore();                    
+                    cin >> userchoice;
+                    
+                }
+        }
+    
+    cout << endl;
+    cout << "Program quit, thank you for participating." << endl;
+    cout << endl;
+
+}
