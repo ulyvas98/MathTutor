@@ -11,7 +11,7 @@ int main()
     int useranswer;
     
     cout << endl;
-    cout << "Welcome to Math Tutor by Ulysses Vasquez!\n\nThese are the subjects supported.\n1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
+    cout << "Welcome to Math Tutor by Ulysses Vasquez!\n\nThese are the subjects supported.\n1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Division.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
     cin >> userchoice;
     
     while (userchoice != 5)
@@ -35,7 +35,7 @@ int main()
                             cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
 
                     cout << endl;
-                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Division.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
                     cin >> userchoice;
                 } 
             else if (userchoice == 2)
@@ -58,7 +58,7 @@ int main()
                             cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
 
                     cout << endl;
-                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Division.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
                     cin >> userchoice;
                 }
            else if (userchoice == 3)
@@ -81,7 +81,7 @@ int main()
                             cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
 
                     cout << endl;
-                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Division.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
                     cin >> userchoice;
                 }
             else if (userchoice == 4)
@@ -104,7 +104,7 @@ int main()
                             cout << "Your answer is wrong :(\nThe correct answer is: " << answer << endl;
 
                     cout << endl;
-                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Division.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
                     cin >> userchoice;
                 }
             else 
@@ -112,7 +112,7 @@ int main()
                     cout << endl;
                     cout << "  !!Invalid input!!" << endl;
                     cout << endl;
-                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Divission.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
+                    cout << "1. Addition.\n2. Subtraction.\n3. Multiplication.\n4. Division.\n5. To quit the program.\nPlease select the number associated with your subject (1-5): ";
                     cin.clear();
                     cin.ignore();                    
                     cin >> userchoice;
